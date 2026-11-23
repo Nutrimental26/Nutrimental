@@ -1,8 +1,6 @@
 /* ============================================================
-   NUTRIMENTAL · CONTENIDO EDITABLE
-   Este archivo lo genera el panel privado (admin.html).
-   Para publicar cambios: descarga el nuevo config.js desde el
-   panel y reemplaza este archivo en tu hosting.
+   NUTRIMENTAL · CONTENIDO EDITABLE (generado por el panel privado)
+   Reemplaza este archivo en tu hosting para publicar los cambios.
    ============================================================ */
 window.NUTRIMENTAL_CONFIG = {
   "version": 1,
@@ -12,7 +10,7 @@ window.NUTRIMENTAL_CONFIG = {
     "profesional": "L.N. Aldo Giovanni Bermúdez Castillo",
     "cedula": "9817691",
     "correo": "nutrimental.ycoma@gmail.com",
-    "telefono": "614 352 0652",
+    "telefono": "614 353 2533",
     "app": "Nutrimind",
     "horarioChat": "Lunes a viernes, 9:00 a 18:00 h (hora de Chihuahua)"
   },
@@ -48,7 +46,11 @@ window.NUTRIMENTAL_CONFIG = {
       "tipoPrecio": "fijo",
       "precio": 650,
       "parcialidades": 1,
-      "promo": { "activa": false, "precio": 500, "nota": "Cupo fundador · primeros lugares" }
+      "promo": {
+        "activa": false,
+        "precio": 500,
+        "nota": "Cupo fundador · primeros lugares"
+      }
     },
     {
       "id": "apto",
@@ -69,7 +71,11 @@ window.NUTRIMENTAL_CONFIG = {
       "tipoPrecio": "fijo",
       "precio": 1850,
       "parcialidades": 2,
-      "promo": { "activa": false, "precio": 1450, "nota": "Cupo fundador · primeros 6–8 lugares" }
+      "promo": {
+        "activa": false,
+        "precio": 1450,
+        "nota": "Cupo fundador · primeros 6–8 lugares"
+      }
     },
     {
       "id": "peso",
@@ -90,7 +96,11 @@ window.NUTRIMENTAL_CONFIG = {
       "tipoPrecio": "fijo",
       "precio": 3200,
       "parcialidades": 2,
-      "promo": { "activa": false, "precio": 2500, "nota": "Cupo fundador · 2 pagos de $1,250" }
+      "promo": {
+        "activa": false,
+        "precio": 2500,
+        "nota": "Cupo fundador · 2 pagos de $1,250"
+      }
     },
     {
       "id": "cronica",
@@ -111,13 +121,29 @@ window.NUTRIMENTAL_CONFIG = {
       "tipoPrecio": "evaluacion",
       "precio": 0,
       "parcialidades": 1,
-      "promo": { "activa": false, "precio": 0, "nota": "" }
+      "promo": {
+        "activa": false,
+        "precio": 0,
+        "nota": ""
+      }
     }
   ],
   "promociones": [
-    { "imagen": "", "titulo": "", "paquete": "" },
-    { "imagen": "", "titulo": "", "paquete": "" },
-    { "imagen": "", "titulo": "", "paquete": "" }
+    {
+      "imagen": "",
+      "titulo": "",
+      "paquete": ""
+    },
+    {
+      "imagen": "",
+      "titulo": "",
+      "paquete": ""
+    },
+    {
+      "imagen": "",
+      "titulo": "",
+      "paquete": ""
+    }
   ],
-  "adminHash": "15552c788279c8a45eac811bcc8696da509bfd9181fa37afe147461377778251"
+  "adminHash": "28d84f5b3798da3d9ea1ffb50ba11b6d7feef9faf076373d1aa293b27292d7a2"
 };
