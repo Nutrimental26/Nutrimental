@@ -1,0 +1,51 @@
+NUTRIMENTAL · SITIO DE VENTA AUTOMÁTICA DE SERVICIOS DE NUTRICIÓN
+=================================================================
+
+QUÉ HACE
+- El cliente elige uno de los 4 paquetes, llena su expediente (formulario distinto por paquete,
+  con semáforo de seguridad verde / amarillo / rojo), ve los datos de depósito, adjunta su comprobante
+  y envía.
+- A tu correo (nutrimental.ycoma@gmail.com) llega un PDF con todo el expediente, el semáforo, el pago
+  y, si lo adjuntó, el comprobante. No necesitas servidor propio para recibir los correos.
+- Si el semáforo sale rojo no se cobra: se le orienta con tacto y puede enviarte su información.
+- Todos los paquetes incluyen seguimiento en la app Nutrimind y activación física.
+
+CONTENIDO DE LA CARPETA
+  index.html     Página pública para tus clientes
+  admin.html     Panel privado (solo tú): paquetes, precios, promociones, depósito
+  config.js      Contenido editable (lo reemplazas cada vez que publiques cambios)
+  assets/ css/ js/ vendor/   Logo, estilos y programas (no se tocan)
+
+PASO 1 · PUBLICAR LA PÁGINA (gratis, 5 minutos)
+  Sube la carpeta completa a un hosting estático. La opción más sencilla:
+  1. Entra a https://app.netlify.com/drop
+  2. Arrastra la carpeta "nutrimental-web" completa.
+  3. Te da un enlace público. Después puedes ponerle tu propio dominio.
+  (Alternativas gratuitas: Cloudflare Pages o GitHub Pages.)
+  Importante: abrir index.html con doble clic en tu computadora sirve para ver el diseño, pero el
+  envío de correos solo funciona cuando la página está publicada en internet.
+
+PASO 2 · ACTIVAR EL ENVÍO DE CORREOS (una sola vez)
+  1. Con la página ya publicada, llena el formulario completo como si fueras un cliente (usa datos de prueba).
+  2. FormSubmit te enviará un correo de activación a nutrimental.ycoma@gmail.com: ábrelo y confirma.
+  3. Haz otra prueba y verifica que llegue el correo con el PDF adjunto. Revisa también "Spam".
+  4. Opcional: tras activar, FormSubmit te da una dirección alias aleatoria; puedes pegarla en el panel,
+     en "Contacto y envío", para que tu correo real no quede visible en el código de la página.
+
+PASO 3 · USAR EL PANEL PRIVADO (admin.html)
+  - Dirección: tu-enlace/admin.html
+  - Contraseña inicial: Nutrimental2026!   (el panel te obliga a cambiarla en tu primer ingreso)
+  - Ahí puedes: cambiar nombre, descripción, "qué incluye" y PRECIO de cada paquete; marcar precio
+    promocional; ocultar un paquete; subir hasta 3 PROMOCIONES en imagen; capturar tus datos de
+    depósito (banco, titular, CLABE, enlace de pago); y cambiar tu contraseña.
+  - PARA QUE LOS CAMBIOS LLEGUEN A TUS CLIENTES: en el panel pulsa "Descargar config.js" y reemplaza
+    el config.js de tu hosting (en Netlify: arrastra de nuevo la carpeta con el nuevo config.js).
+    Solo quien tiene acceso a tu hosting puede publicar cambios, es decir, solo tú.
+  - "Vista previa" te muestra tus cambios en tu navegador antes de publicarlos.
+
+IMPORTANTE ANTES DE ABRIR AL PÚBLICO
+  - Captura tus datos de depósito en el panel (hoy están vacíos: mientras no los captures, la página
+    le dice al cliente que le enviarás los datos por correo).
+  - Revisa con calma los textos legales (aviso de privacidad y consentimiento informado) y adáptalos
+    a tu criterio profesional.
+  - El sistema es una herramienta de triaje y no sustituye tu valoración clínica.
